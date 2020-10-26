@@ -2,5 +2,8 @@ spring
   datasource:
     password:root
     username:1234
-    uri:
+    uri:jdbc:mysql://localhost:3306/fornecedor
+  jpa:
+    hibernate:
+      ddl-auto:validate
     
