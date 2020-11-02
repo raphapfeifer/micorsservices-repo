@@ -1,9 +1,9 @@
-spring
+spring:
   datasource:
-    password:root
-    username:1234
-    url:jdbc:mysql://localhost:3306/fornecedor
+    password: root
+    username: 1234
+    url: jdbc:mysql://localhost:3306/fornecedor
   jpa:
     hibernate:
-      ddl-auto:validate
+      ddl-auto: validate
     
